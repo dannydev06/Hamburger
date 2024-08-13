@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+header{
+    width:100%;
+    height: 45pt;
+    overflow: hidden;
+    background-color: rgba(255, 255, 225, 0.1);
+    backdrop-filter: blur(15px);
+    box-shadow: 5px 3px 12px 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5pt;
+}
+.listbox{
+    text-decoration: none;
+}
+.Name{
+    font-size: 23pt;
+    transform: translateY(14px);
+    font-weight: bold;
+}
+.list-items{
+    display: inline;
+    padding: 12pt;
+}
+.nav-images{
+    user-select: none;
+    height: 50px;
+    width: 55px;
+    transition: all 1s ease-in-out;
+}
+.nav-images:hover{
+    padding: 6px;
+    border: 3px solid;
+    border-radius: 50%;
+    
+}
